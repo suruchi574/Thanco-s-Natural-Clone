@@ -1,0 +1,269 @@
+.Bapimage{
+    background-image:url("./Assignmentimage1.jpg");
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Scale to cover entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No tiling */
+    background-attachment: scroll;  
+    touch-action: none
+}
+
+.header{
+    
+    display: inline;
+    width:99%;
+    background-color: rgb(103, 116, 116);
+    opacity: 0.6;
+    position:fixed;
+}
+
+.headerul{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+
+}
+
+.li1{
+    align-items: center;
+    color: #fff;
+    float: right;
+    margin: 10px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.bacchaimage{
+    background-image: url("./Assignmen.jpg");
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Scale to cover entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No tiling */
+    background-attachment: scroll; 
+    display: flex; /* Use Flexbox to align items */
+    justify-content: space-between; /* Place items on opposite sides */
+    align-items: center; /* Center vertically */
+    touch-action: none;
+}
+.chotabccha{
+    display: none;
+    list-style: none;
+}
+    
+.headerul:hover .chotabccha{
+    display: block;
+}
+.chotabccha li:hover{ 
+    background-color: gray;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p,h3,h1,input,button,textarea{
+    font-size: large;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    display: block;
+}
+h4{
+    font-size: large;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:green;
+    display: block;
+}
+
+.p1{
+      width: 20%; /* Adjust width as needed */
+      text-align: left; /* Align text to the left */
+      margin-left: 120px; 
+      top: 50px;
+      vertical-align: baseline;
+}
+
+.p2{
+    width: 20%; /* Adjust width as needed */
+    text-align: right; /* Align text to the right */
+    margin-right: 120px;
+    top: 50px;
+    vertical-align: baseline;
+}
+*{
+    margin:0px;
+}
+.back{
+    background-image: url("./background.jpg");
+    height: 600px; /* Full viewport height */
+    background-size: cover; /* Scale to cover entire area */
+    background-repeat: no-repeat; /* No tiling */
+    display: flex;
+    justify-content: center;
+}
+.first {
+    background: url('./Flavours.png');
+    height: 500px;
+    width:33%;
+    background-size: cover;
+    padding: 20px;
+    color: white; /* Ensure text is readable on the background */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: Add shadow to text */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin: 30px;
+    padding: 20px;
+}
+.block {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.parablock {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.second{
+    background: url('./Stores.png');
+    height: 500px;
+    width:33%;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: Add shadow to text */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin: 30px;
+    padding: 20px;
+}
+.third{
+    background: url('./Franchise.png');
+    height: 500px;
+    width:33%;
+    background-size: cover;
+    padding: 20px;
+    color: white; /* Ensure text is readable on the background */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: Add shadow to text */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin: 30px;
+    padding: 20px;
+}
+.first, .second, .third {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 30%; /* Slightly smaller width for better alignment */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks the heading and paragraph vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    color: white; /* Text color for readability */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Optional: Text shadow for contrast */
+    border-radius: 10px; /* Optional: Rounded corners */
+    padding: 20px; /* Adds inner spacing */
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center; /* Centers the text within the div */
+}
+.suggest {
+    background-image: url("./last.jpg"); /* Replace with your actual image URL */
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Scale the background to cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Avoid tiling */
+    display: flex; /* Enable flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    color: white; /* Text color for visibility */
+}
+
+.suggest h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Space below the heading */
+    color: white; /* Ensure readability */
+    padding-top: 10px;
+}
+
+.suggest input,
+.suggest textarea {
+    width: 60%; /* Adjust width to be responsive */
+    max-width: 900px; /* Limit maximum width */
+    padding: 10px; /* Add padding for input fields */
+    margin: 10px 0; /* Space between fields */
+    border: 1px solid #fff; /* White border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.0); /* Slightly transparent background */
+    color: white; /* Text color */
+    outline: none; /* Remove focus outline */
+}
+
+.suggest input::placeholder,
+.suggest textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder color */
+    /*The text will appear white with 70% opacity, blending partially with the background.*/
+}
+
+.suggest textarea {
+    height: 150px; /* Set height for textarea */
+    resize: none; /* Disable resizing */
+}
+
+.suggest button {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+     /* It gives Space above button */
+    border: 2px solid yellow;
+     /* It gives Yellow border of button */
+    border-radius: 5px;
+     /* it Rounds the corners of button */
+    background: transparent;
+     /* It sets background as a Transparent bcz we have to show background pink color */
+    color: yellow;
+    font-size: 18px;
+    font-weight:normal; 
+    cursor: pointer;
+     /* When we moves cursor to the button by using this property it will change the arrow to hand cursor*/
+    transition: all 0.3s ease; 
+    /* Smooth hover effect when we moves cursor on the button */
+}
+
+.suggest button:hover {
+    background:yellow; 
+    /*when we move cursor on the submit button the color will be yellow*/
+    color: black; 
+    /* And text will be change yellow to  Black */
+}
+.footerwa{
+    padding-top: 70px;
+    padding-left:130px;
+    background-color: #222;
+    height: 350px;
+    display: flex;
+}
+.contact{
+    padding: 50px;
+    margin-right:20px ;
+    float: left;
+    width: 30%;
+}
+.email{
+    padding: 50px;
+    margin:20px;
+    float: left;
+    width: 30%;
+}
+.imagewa{
+    background-image: url("./lastimage.png");
+    display: flex;
+    float: left;
+    width: 20%;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
